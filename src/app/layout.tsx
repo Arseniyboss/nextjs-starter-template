@@ -11,15 +11,17 @@ type Props = {
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Portfolio website build with NextJS',
+  title: 'NextJS Starter Template',
+  description: 'NextJS Starter Template using TypeScript and Styled Components',
 }
 
 const RootLayout = ({ children }: Props) => {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <main>{children}</main>
+        </StyledComponentsRegistry>
       </body>
     </html>
   )

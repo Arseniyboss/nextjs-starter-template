@@ -1,14 +1,11 @@
-# Portfolio
-
-## Description
-
-Portfolio website build with NextJS
+# NextJS Starter Template
 
 ## Technologies
 
 - Language: **TypeScript**
-- Framework: **NextJS**
 - Styling: **Styled Components**
+
+## Commands
 
 | Command               | Action                                  |
 | --------------------- | --------------------------------------- |
@@ -19,10 +16,3 @@ Portfolio website build with NextJS
 | npm run lint          | detects eslint warnings and errors      |
 | npm run compile       | detects typescript errors               |
 | npm run update:latest | updates dependencies to latest versions |
-
-## Sections
-
-- About
-- Skills
-- Projects
-- Contact

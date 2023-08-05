@@ -1,11 +1,7 @@
 import { Heading } from './styles'
 
 const Home = () => {
-  return (
-    <main>
-      <Heading>Hello World</Heading>
-    </main>
-  )
+  return <Heading>Hello World</Heading>
 }
 
 export default Home
