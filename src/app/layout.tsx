@@ -2,7 +2,7 @@ import './globals.css'
 import { ReactNode } from 'react'
 import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import StyledComponentsRegistry from '@lib/registry'
+import StyledComponentsRegistry from '@/lib/registry'
 
 type Props = {
   children: ReactNode
