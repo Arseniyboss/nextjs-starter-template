@@ -3,6 +3,7 @@
 ## Technologies
 
 - Language: **TypeScript**
+- Framework: **NextJS**
 - Styling: **Styled Components**
 
 ## Commands
